@@ -58,3 +58,23 @@ body {
 .inicio-texto {
   width: 50%;
 }
+
+.inicio-texto h2 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.inicio-texto p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.boton {
+  text-decoration: none;
+  background-color: #5b6926;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+
