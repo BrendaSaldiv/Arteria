@@ -1,4 +1,4 @@
-/* RESET */
+/* Reset básico*/
 * {
   margin: 0;
   padding: 0;
@@ -6,3 +6,16 @@
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Lexend", sans-serif;
+  background-color: #f6f6f4;
+  color: #333;
+}
+
+/*  NAV BAR*/
+
+.nav-bar {
+  background-color: #ffffffcc;
+  padding: 15px 30px;
+  display: flex;
+}
