@@ -30,3 +30,9 @@ body {
   letter-spacing: 2px;
 }
 
+.nav-lista {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
