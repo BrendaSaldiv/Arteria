@@ -120,3 +120,150 @@ body {
   border: 15px solid yellow;
   transition: transform 0.3s ease;
 }
+
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 5px dotted black;
+  border-radius: 5px;
+}
+
+.card h3,
+.card p {
+  padding: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/*  NOSOTROS*/
+
+.nosotros {
+  padding: 70px 10%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background-color: #eceadf;
+}
+
+.nosotros-texto,
+.nosotros-imagen {
+  width: 50%;
+}
+
+.nosotros-imagen img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* CONTACTO*/
+
+.contacto {
+  padding: 70px 10%;
+}
+
+.contacto h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.formulario button {
+  padding: 12px;
+  background-color: #5b6926;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*  FOOTER  */
+
+.footer {
+  background-color: #5b6926;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* RESPONSIVE  */
+
+@media screen and (max-width: 768px) {
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: static;
+  }
+
+  .nav-lista {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .nav-lista li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .inicio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inicio-texto,
+  .inicio-imagenes {
+    width: 100%;
+  }
+
+  .inicio-imagenes {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .inicio-texto h2 {
+    font-size: 1.8rem;
+  }
+
+  .nav-lista li a {
+    font-size: 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
