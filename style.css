@@ -25,3 +25,8 @@ body {
   z-index: 1000;
 }
 
+.logo {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
